@@ -1,0 +1,488 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*debut header*/
+
+header{
+    
+    /*background-color: orange;*/
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    background-image: url(/images/marcel-strauss-DR3O0MICFYA-unsplash.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+nav{
+    
+    /*background-color: cyan;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    height: 100px;
+    align-items: center;
+    left:63%;
+    right:50px;
+    top: 20px;
+    position: fixed;
+    
+      
+}
+
+div{
+    
+    border:none;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    /*background-color: antiquewhite;*/
+    border-radius: 50%;
+       
+}
+
+.acceuil{
+    
+    background-color: white;
+     background-image: url(/logo/acceuil%20logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s; 
+    animation: totheleft 2s;
+    
+}
+
+.acceuil:hover{
+     transform: scale(1.2);
+}
+
+.experienceperso{
+    
+    background-image: url(/logo/experience%20perso%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    transition: 0.2s;
+    animation: totheleft 2.5s;
+}
+
+.experienceperso:hover{
+    
+     transform: scale(1.2);
+}
+
+.formations{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20formation%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 3s;
+    
+}
+
+.formations:hover{
+    
+     transform: scale(1.2);
+}
+
+.experiencepro{
+    
+    background-color: white;
+    background-image: url(/logo/experience%20pro%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 3.5s;
+}
+
+
+.experiencepro:hover{
+    
+     transform: scale(1.2);
+}
+
+.info{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20info%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 4s;
+    
+}
+
+.info:hover{
+    
+     transform: scale(1.2);
+}
+
+.contact{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20contact%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 4.5s;
+    
+    
+}
+
+.contact:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+h1{
+    width:12em;
+    margin:0;
+    position: fixed;
+    top: 30px;
+    left:10em;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+    animation: totheright 2.2s;
+    animation-timing-function:cubic-bezier(0.33, 0.95, 0.58, 1)
+
+    
+    
+}
+
+
+
+h2{
+    opacity: 0;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #34576d;
+    
+}
+
+.acceuil h2 {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.experienceperso h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+   
+
+}
+
+.formations h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+.experiencepro h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+
+    
+}
+
+
+.info h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+.contact h2{
+    
+     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+
+h2:hover{
+    
+    opacity: 1;
+    transition: 0.8s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*fin header*/
+
+
+
+
+.container{
+    
+    background-image: linear-gradient(to bottom, #bdd9ef,#bdd9ef,white);
+    display: flex;
+    height: 969px;
+    width: 100%;
+    border-radius:0;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    
+    
+}
+
+.container div {
+    
+    width: 300px;
+    height: 600px;
+/*    background-color: gold;*/
+    margin-top: 200px;
+/*    box-shadow: 1px 2px 8px #34576d8f, -1px -2px 8px #34576d8f;*/
+/*    border-radius: 0%;*/
+/*    border: solid 1px;*/
+    
+}
+
+
+h3{
+    font-size: 29px;
+    margin-top: 50px;
+/*    color: #6dafe1;*/
+/*    color: #34576d;*/
+    color: #3d77a1;
+/*    text-shadow: 3px 1px 1px white;*/
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 1px #92b9da;
+}
+
+
+
+ul{
+    list-style: none;
+    margin-top: 80px;
+    padding: 0;
+    text-align: justify;
+    
+
+    
+}
+
+li{
+    
+    font-size:22px;
+    margin-bottom: 25px;
+/*    border: solid 1px;*/
+    color:#34576d;
+    
+     
+}
+
+/* début div détaillé*/
+
+
+.faire ul{
+    
+    margin-left: 60px;
+}
+
+
+.competence ul{
+    
+   
+    text-align: center;
+}
+
+
+
+.logiciel ul{
+    
+    text-align: justify;
+    margin-left: 80px;
+
+}
+
+
+
+.etre ul{
+
+    margin-left: 110px;
+     
+}
+
+  
+/*fin div détaillé*/
+
+img{
+    
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+    vertical-align:middle;
+    box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    border-radius: 30%;
+    
+}
+
+
+.container div :nth-child(1n){
+    
+    animation: tobottom 3s ;
+    
+}
+
+.container div :nth-last-child(2n){
+    
+    animation: totop 3s ;
+    
+    
+}
+
+
+
+
+/*animation titre H1*/
+
+@keyframes totheright{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(-200px,0);
+        
+    }
+
+    20%{
+        
+        opacity:0;
+    }
+    
+    
+    100%{
+        opacity:1;
+        transform: translate(0,0);
+        
+    }
+    
+    
+}
+
+
+/*Fin animation titre H1*/
+
+
+/*animation des menus*/
+
+  
+    
+    
+    
+    
+@keyframes totheleft{
+    
+    0%{
+        opacity: 0;
+        transform: translate(500px,0);
+      }
+    
+    40%{
+        
+        opacity: 0;
+        
+    }
+
+    100%{
+        
+        opacity: 1;
+            transform: translate(0,0)rotate(-1080deg);
+        
+    }
+       
+}
+
+/*Fin animation des menus*/
+
+
+@keyframes tobottom{
+    
+    0%{
+        
+        transform: translate(0,-200px);
+        opacity: 0;
+        
+        
+    }
+    
+    
+    50%{
+        
+        opacity: 0;
+    }
+    
+    
+    
+    100%{
+        
+        transform: translate(0,0) rotate3d(0,1,0,360deg);
+        opacity: 1;
+        
+    }
+    
+}
+
+
+@keyframes totop {
+    
+    0%{
+        
+        transform: translate(0,200px)rotate3d(0,1,0,-360deg);
+        opacity: 0;
+        
+        
+    }
+    
+    50%{
+        
+        opacity: 0;
+    }
+    
+    
+    100%{
+        
+        transform: translate(0,0);
+        opacity: 1;
+        
+    }
+    
+}
+
+    
+   

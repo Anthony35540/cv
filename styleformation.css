@@ -1,0 +1,798 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*début header*/
+
+header{
+    
+    /*background-color: orange;*/
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    background-image: url(/images/marcel-strauss-DR3O0MICFYA-unsplash.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    top: 0;
+    background-size: cover;
+    
+    
+}
+
+nav{
+    
+    /*background-color: cyan;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    height: 100px;
+    align-items: center;
+    left:63%;
+    right:50px;
+    top: 20px;
+    position: fixed;
+    
+   
+    
+   
+}
+
+div{
+    
+    border:none;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    /*background-color: antiquewhite;*/
+    border-radius: 50%;
+       
+}
+
+.acceuil{
+    
+    background-color: white;
+     background-image: url(/logo/acceuil%20logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 2s;
+
+    
+    
+}
+
+.acceuil:hover{
+    
+     transform: scale(1.2);
+}
+
+.experienceperso{
+    
+    background-image: url(/logo/experience%20perso%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    transition: 0.2s;
+    animation: totheleft 2.5s;
+
+        
+}
+
+.experienceperso:hover{
+    
+     transform: scale(1.2);
+}
+
+
+.experiencepro{
+    
+    background-color: white;
+    background-image: url(/logo/experience%20pro%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 3s;
+
+   
+}
+
+.experiencepro:hover{
+    
+     transform: scale(1.2);
+    
+}
+
+
+.competences{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20competences%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 3.5s;
+
+    
+}
+
+
+.competences:hover{
+    
+     transform: scale(1.2);
+}
+
+
+.info{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20info%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 4s;
+
+    
+}
+
+.info:hover{
+    
+     transform: scale(1.2);
+}
+
+.contact{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20contact%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 4.5s;
+
+    
+    
+}
+
+.contact:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+h1{
+    width:12em;
+    margin:0;
+    position: fixed;
+    top: 30px;
+    left:10em;
+    text-transform: capitalize;
+    font-size: 3em;
+   color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+    animation: totheright 2.2s;
+    animation-timing-function:cubic-bezier(0.33, 0.95, 0.58, 1)
+    
+}
+
+
+
+h2{
+    opacity: 0;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #34576d;
+    
+}
+
+.acceuil h2 {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.experienceperso h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+   
+
+}
+
+.experiencepro h2{
+    
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+.competences h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+        
+}
+
+
+.info h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+.contact h2{
+    
+     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+
+h2:hover{
+    
+    opacity: 1;
+     transition: 0.8s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*fin header*/
+
+
+section{
+    height: 990px;
+    width:1918px;
+    padding-top: 20px;
+    padding-right: 0;
+    margin-right: 0px;
+    background-image: linear-gradient( to bottom, #bdd9ef, white )
+    
+}
+
+
+.container{
+    
+    height: 739px;
+    width: auto;
+    border-radius: 0;
+    margin: 200px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+/*    background-color: aqua;*/
+}
+
+
+.container div{
+
+    border-radius: 0;
+    
+    
+    
+        
+}
+
+
+
+.formation{
+
+    border-radius: 0;
+    height:auto;
+    width: 950px;
+/*    flex-direction: column;*/
+    display: flex;
+    justify-content: space-around;
+/*    background-color: green;*/
+    flex-wrap: wrap;
+    margin-left: 80px;
+    
+    
+    
+            
+}
+
+
+
+.diplome{
+    
+    border-radius: 0;
+    flex-grow: 1;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    flex-direction: column;
+/*    background-color: aqua;*/
+    
+}
+
+.titrepro{
+    
+    border-radius: 0;
+/*    margin: 20px 500px 10px 60px;*/
+    height: 400px;
+    width: auto;
+    margin-right: 200px;
+    animation: tobottom 5s;
+
+  }
+
+.titrepro h3{
+    
+     animation: apparition 5.3s;
+}
+
+
+
+.dnb{
+    
+/*    background-color: red;*/
+    border-radius: 0;
+/*    margin: 10px 500px 10px 60px;*/
+    height: 400px;
+    width: auto;
+    margin-right: 200px;
+    animation: totop 5s;
+    
+}
+
+
+.diplome img{
+    
+    transition: 2s
+}
+
+.diplome img:hover{
+    
+    transform: scale(1.8);
+    
+    
+}
+
+
+.dnb h3{
+    
+    
+     animation: apparition 5.3s;
+}
+
+
+.formation div{
+    
+
+    width:350px;
+    height: 200px;
+    border-radius: 2%;
+/*    margin: 0px 50px 0px 500px;*/
+    letter-spacing: 1px;
+    margin-top: 100px;
+   
+        
+}
+
+.digitale{
+    
+    box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    animation: toright 4s;
+    
+    
+}
+
+.digitale h3{
+    
+     animation: apparition 4s;
+}
+
+.digitale h4{
+    
+    
+     animation: apparition 4.3s;
+    
+}
+
+
+.digitale h5{
+    
+    
+     animation: apparition 4.6s;
+    
+}
+
+
+
+.autoformation{
+     box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    animation: tobottom 4s;
+}
+
+.autoformation h3{
+    
+     animation: apparition 4s;
+}
+
+.autoformation h4{
+    
+     animation: apparition 4.3s;
+    
+}
+
+
+.autoformation h5{
+    
+     animation: apparition 4.6s;
+    
+}
+.div2021{
+    
+     box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    animation: totop 5s;
+}
+
+.div2021 h3{
+    
+     animation: apparition 5s;
+}
+
+.div2021 h4{
+    
+     animation: apparition 5.3s;
+    
+}
+
+.div2021 h5{
+    
+     animation: apparition 5.6s;
+    
+}
+
+.div2009{ box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    animation: toright 5s; 
+    
+}
+
+.div2009 h3{
+    
+     animation: apparition 5s;
+}
+
+
+.div2009 h4 {
+    
+     animation: apparition 5.3s;
+    
+}
+
+
+.div2009 h5{
+    
+     animation: apparition 5.6s;
+    
+}
+
+.formation h3{
+    
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #3d77a1;
+    
+     
+        
+    } 
+
+
+
+
+
+.diplome h3{
+    margin-top: 20px;
+    color: #3d77a1;
+     
+}
+
+.autoformation h4{
+    
+    margin-bottom: 10px;
+
+}
+
+
+h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #3d77a1;
+    
+}
+
+h5{
+    margin: 0px;
+    text-transform: capitalize;
+    font-size: 15.5px;
+    color: #3d77a1;
+   
+}
+
+img{
+    height: 250px;
+    margin-top: 10px;
+       
+}
+
+.diplome img{
+    
+    box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+}
+
+
+.logoburoscope{
+    
+      height:50px;
+    margin-top: 10px;
+    animation: apparition 4.9s;
+    
+}
+
+
+
+
+.logohtmlcss{
+    height:40px;
+    margin-top: 2px;
+     animation: apparition 4.9s;
+ 
+    
+}
+
+
+.logoclps{
+    
+    width: 90px;
+    height: 40px;
+    animation: apparition 5.9s;
+}
+
+
+
+.logodiafor{
+    
+     width: 40px;
+    height: 50px;
+     animation: apparition 5.9s;
+}
+
+
+.formation .divicone{
+  
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 130px 0px 130px;
+    
+  }
+
+
+
+footer{
+    
+    height: 80px;
+    width: 100%;
+     background:linear-gradient(to top,#9fc6e5,white);
+
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li{
+    font-size: 0.8em;
+    display: block;
+ color:#34576d;
+/* margin-top: 20px;*/
+    
+        
+}
+
+span{
+    
+   
+/*   background-color: aqua;*/
+    margin-right: 46%;
+    margin-left: 46%;
+    font-size:0.8em;
+ color:#34576d;
+     
+}
+
+
+/*animation titre H1*/
+
+@keyframes totheright{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(-200px,0);
+        
+    }
+
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+        
+    }
+}
+
+
+
+
+/*fin animation titre H1*/
+
+
+/*animation des menus*/
+
+@keyframes totheleft{
+    
+    0%{
+        opacity: 0;
+        transform: translate(500px,0)
+      }
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+
+    100%{
+        
+        opacity: 1;
+            transform: translate(0,0)rotate(-1080deg)
+        
+    }
+       
+}
+
+/*fin animation des menus*/
+    
+/*animation des div fomrations*/
+
+@keyframes tobottom{
+   0%{
+    opacity: 0;
+    transform: translate(0,-100px)
+    
+}
+
+    
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+
+100%{
+    
+    opacity: 1;
+    transform: translate(0,0)
+    
+} 
+    
+}
+
+
+
+@keyframes toright{
+   0%{
+    opacity: 0;
+    transform: translate(-100px,0)
+    
+}
+
+    
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+
+100%{
+    
+    opacity: 1;
+    transform: translate(0,0)
+    
+} 
+    
+}
+
+
+
+
+@keyframes totop{
+   0%{
+    opacity: 0;
+    transform: translate(0,100px)
+    
+}
+
+    
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+
+100%{
+    
+    opacity: 1;
+    transform: translate(0,0)
+    
+} 
+    
+}
+
+
+@keyframes apparition{
+   0%{
+    opacity: 0;
+    
+    
+}
+
+    
+    80%{
+        
+        opacity: 0;
+    } 
+    
+    
+
+100%{
+    
+    opacity: 1;
+   
+    
+} 
+    
+}
+
+/*fin animation div formation*/
+
+/*animation année/*/
+
+
+
+
+/*fin animation année
+
+

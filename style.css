@@ -1,0 +1,528 @@
+body{margin:0;
+    font-family: sans-serif;
+    
+}
+
+
+
+header{
+   
+    height: 500px;
+    width: auto;
+    margin: 0;
+    background-image: url(/images/marcel-strauss-DR3O0MICFYA-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+
+section{
+    
+    background:linear-gradient(#9fc6e5,skyblue,white);
+    height: 350px;
+    width: 100%;
+    
+}
+
+
+.div1{
+    
+/*    background-color:white;*/
+    width: 100%;
+    height: auto;
+}
+
+
+.anthony{
+   
+    margin-top: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4em;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+    transition: 1s;
+    animation: slidright 2s;
+    position: absolute;
+    left: 660px;
+ 
+}
+
+
+.verger{
+   
+    margin-top: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4em;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+    transition: 1s;
+    animation: slidleft 2s;
+    position: absolute;
+    right: 700px;
+   
+}
+
+
+
+section h2{
+    
+/*    background-color: bisque;*/
+    width: 300px;
+    margin: 0;
+/*    margin-top: 0px;*/
+    font-size:2em;
+    margin-left: 100px;
+    padding-top: 20px;
+    color: #34576d;
+    animation: slidright 3.5s;
+    
+    
+}
+
+
+h3{
+    
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    letter-spacing: 1px;
+    color:#2d6287;
+    animation: apparition 3s;
+    
+    
+}
+
+
+
+.container h2{
+    text-align: center;
+    padding-top: 32%;
+    padding-bottom: 40%;
+    text-transform: capitalize;
+    opacity: 0;
+    color:black;
+/*    text-shadow: 2px -1px 1px black;*/
+    font-size:20px;
+    margin: 0;
+    color: #34576d;
+     
+}
+
+
+.container h2:hover{
+    opacity: 1;
+     transition: 0.8s;
+    
+ 
+}
+
+.experiencepro h2{
+    
+    padding-top:50px;
+    padding-bottom: 80px;
+    
+}
+
+.experienceperso h2{
+    
+     padding-top:50px;
+    padding-bottom: 80px;
+}
+
+.formation h2{
+    
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.competence h2{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.info h2 {
+    
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.contact h2{
+    
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+
+
+p{
+    padding-top: 20px;
+/*    padding-left: 200px;*/
+    
+}
+
+.container{
+    
+/*    background-color:white;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    height: 600px;
+    width: 30%;
+    margin-left: 650px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+    
+    
+}
+ 
+
+.experiencepro{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(/logo/experience%20pro%20logo%20200px.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transform: translate(-50px);
+    transition: 0.2s;
+    
+ 
+   
+    
+}
+
+
+.experiencepro:hover{
+    transform: scale(1.2) translate(-50px);
+    
+}
+
+    .experienceperso{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(/logo/experience%20perso2.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transition: 0.2s;
+    
+}
+
+
+.experienceperso:hover{
+    
+    transform: scale(1.2);
+}
+
+
+
+.formation{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(/logo/logo%20formation.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transform: translate(50px);
+    transition: 0.2s;
+     
+}
+
+.formation:hover{
+    
+    transform: scale(1.2) translate(50px);
+   
+}
+
+
+.competence{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image:url(/logo/logo%20competences.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transform: translate(-50px);
+    transition: 0.2s;
+}
+
+.competence:hover{
+    
+    transform: scale(1.2) translate(-50px);
+}
+
+.info{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(/logo/logo%20info.jpg);
+    background-size: contain;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transition: 0.2s;
+}
+
+.info:hover{
+    
+    transform: scale(1.2)
+}
+
+
+.contact{
+    /*border: 1px solid skyblue;*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(/logo/logo%20contact.jpg);
+    background-size: contain;
+    box-shadow: 5px 1px 8px skyblue,-5px 1px 8px skyblue,-1px -1px 8px skyblue,-1px 2px 8px skyblue;
+    transform: translate(50px);
+    transition: 0.2s;
+    
+}
+
+.contact:hover{
+    
+    transform: scale(1.2) translate(50px);
+}
+
+
+a{
+    text-decoration-line: none;
+    
+}
+
+
+article{
+    
+/*    background-color: aqua;*/
+    width: 36%;
+    height: auto;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 50px;
+    margin-left: 200px;
+    text-indent: 30px;
+    color: #34576d;
+    line-height: 22px;
+    animation: totheleft 4s;
+    
+}
+
+.photodeprofil{
+    
+    position: absolute;
+    left: 67%;
+    top: 55%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation: rotation 4s;
+    transition: 3s;
+    box-shadow: 1px 5px 5px #34576d8f, -1px -5px 5px #34576d8f,6px 1px 5px #34576d8f,-5px -1px 5px #34576d8f;
+    
+    
+}
+    
+
+footer{
+    
+    height: 80px;
+    width: 100%;
+     background:linear-gradient(to top,#9fc6e5,white);
+
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li{
+    font-size: 0.8em;
+    display: block;
+     color:#34576d;
+    
+        
+}
+
+span{
+    
+   
+/*   background-color: aqua;*/
+    margin-right: 46%;
+    margin-left: 46%;
+    font-size:0.8em;
+    color:#34576d;
+     
+}
+
+
+
+/* animations des titres H1*/
+
+@keyframes slidright{
+    
+    0%{
+        transform: translate(-900px,0);
+        opacity: 0;
+/*        display: flex;*/
+         
+    }
+    
+    35%{
+        
+        opacity: 0;
+/*        display: flex;*/
+ 
+        
+    }
+    
+    100%{
+        opacity: 1;
+/*        display: flex;*/
+        transform: translate(0,0)
+        
+        
+    }
+    
+    
+}
+
+@keyframes slidleft{
+    
+    
+    0%{
+        
+       transform: translate(900px,0);
+        opacity: 0;
+/*        display: flex;*/
+    }
+    
+    35%{
+        
+        opacity: 0;
+/*        display: flex;*/
+    }
+    
+    100%{
+        
+       
+        opacity: 1;
+/*        display: flex;*/
+        }
+    
+}
+
+/*fin des animation des titres H1*/
+
+
+/*animation du H3*/
+
+@keyframes apparition{
+    
+    0%{
+        
+        opacity: 0
+      }
+        
+    50%{
+        
+        opacity: 0;
+        top: 200px;
+      }
+    
+    100%{ 
+    
+    opacity: 1;
+    top: 150px;
+    
+    }
+     
+}
+
+/*fin animation du H3*/
+
+
+/*animation article*/
+
+@keyframes totheleft{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(900px,0);
+       
+          }
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+    100%{
+        
+        opacity: 1;
+        transform: translate(0px,0);
+        
+    }
+}
+
+/*fin animation article*/
+    
+    @keyframes rotation{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(900px,0)rotate(360deg);
+       
+          }
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+    100%{
+        
+        opacity: 1;
+        transform: translate(0px,0);
+        
+    }
+}
+
+
+

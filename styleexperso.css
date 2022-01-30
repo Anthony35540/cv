@@ -1,0 +1,589 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*debut header*/
+
+header{
+    
+    /*background-color: orange;*/
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    background-image: url(/images/marcel-strauss-DR3O0MICFYA-unsplash.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+}
+
+nav{
+    
+    /*background-color: cyan;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    height: 100px;
+    align-items: center;
+    left:63%;
+    right:50px;
+    top: 20px;
+    position: fixed;
+    
+   
+    
+   
+}
+
+div{
+    
+    border:none;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    /*background-color: antiquewhite;*/
+    border-radius: 50%;
+       
+}
+
+.acceuil{
+    
+    background-color: white;
+    background-image: url(/logo/acceuil%20logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 2s;
+    
+    
+    
+}
+
+
+
+.acceuil:hover{
+     transform: scale(1.2);
+}
+
+.experiencepro{
+    
+    background-image: url(/logo/experience%20pro%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    transition: 0.2s;
+      animation: totheleft 2.5s;
+        
+}
+
+.experiencepro:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+.formations{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20formation%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+      animation: totheleft 3s;
+   
+}
+
+
+.formations:hover{
+    
+     transform: scale(1.2);
+}
+
+.competences{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20competences%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+      animation: totheleft 3.5s;
+    
+}
+
+.competences:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+.info{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20info%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+      animation: totheleft 4s;
+    
+}
+
+
+.info:hover{
+    
+     transform: scale(1.2);
+}
+
+
+.contact{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20contact%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+      animation: totheleft 4.5s;
+    
+    
+}
+
+.contact:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+h1{
+    width:12em;
+    margin:0;
+    position: fixed;
+    top: 30px;
+    left:10em;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+    animation: totheright 2.2s;
+    animation-timing-function:cubic-bezier(0.33, 0.95, 0.58, 1)
+    
+    
+    
+}
+
+
+
+h2{
+    opacity: 0;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color:#34576d;
+    
+}
+
+.acceuil h2 {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.experiencepro h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+   
+
+}
+
+.formations h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+.competences h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+
+.info h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+}
+
+.contact h2{
+    
+     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+
+h2:hover{
+    
+    
+    opacity: 1;
+    transition: 0.8s;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+/*fin header*/
+
+
+section{
+    
+    background-color: bisque;
+    border-radius: 0;
+    height:969px;
+    width: 100%;
+     background-image: linear-gradient( to bottom, #bdd9ef,white );
+    
+}
+
+
+
+.container{
+    
+    
+    padding-top: 50px;
+/*    background-color: olive;*/
+    border-radius: 0;
+    height:850px;
+    width: 100em;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    flex-wrap: wrap;
+
+    
+    
+    
+}
+
+.container div{
+    
+    margin-top: 300px;
+    border: solid 2px;
+    border-radius: 0;
+    height: 350px;
+    width: 400px;
+    border: none;
+
+}
+
+.auteur h3{
+    
+/*     margin-bottom: 60px;*/
+    text-align: center
+    
+    
+}
+
+
+.sono h3{
+    
+/*    margin-bottom: 60px;*/
+    
+/*    margin-left: 82px;*/
+    text-align: center;
+}
+
+
+.ingenieur h3{
+    
+/*     margin-bottom: 60px;*/
+/*    margin-left: 70px;*/
+    text-align: center;
+    
+    
+}
+
+
+
+h3{
+    
+/*    position: absolute;*/
+    top:270px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align:justify;
+/*    color: #34576d;*/
+    color: #3d77a1;
+    animation: tobottom 9s;
+    
+}
+
+
+img{
+    
+    width: 250px;
+    height: 270px;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 5px #34576d8f, -1px -2px 5px #34576d8f;
+    animation:rotation 5s;
+    animation-direction: reverse;
+    
+
+    
+    
+}
+
+
+.detail{
+    text-transform: capitalize;
+    display:block;
+    text-decoration: none;
+    color: #34576d;
+    font-size:20px;
+    width: 120px;
+    margin-left: 190px;
+    transition: 0.2s;
+    animation:totop 9s;
+    
+/*    font-weight: bold;*/
+/*    background-color:#d5e7f5b0;*/
+/*    border-radius: 80%*/
+    
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.detail:hover{
+    text-decoration: none;
+    color: #34576d;
+/*    font-size: 22px;*/
+    background-color:#d5e7f5b0;
+    border-radius: 80%;
+    transform: scale(1.2);
+}
+
+
+footer{
+    
+    height: 80px;
+    width: 100%;
+     background:linear-gradient(to top,#9fc6e5,white);
+
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li{
+    font-size: 0.8em;
+    display: block;
+ color:#34576d;
+/* margin-top: 20px;*/
+    
+        
+}
+
+.spanfooter{
+    
+   
+/*   background-color: aqua;*/
+    margin-right: 40%;
+    margin-left: 46%;
+    font-size:0.8em;
+    color:#34576d;
+    
+     
+}
+
+
+
+/*animation images*/
+@keyframes rotation{
+    
+    
+    0%{
+        opacity: 1;
+        transform: rotate3d(0deg) scale(-5);
+        
+    }
+    
+    100%{
+        
+        opacity: 0;
+        transform: rotate3d(0,1,0,720deg)scale(0);
+       
+       
+    }
+    
+    
+}
+
+/*fin animation images*/
+
+
+/*animation savoir+*/
+
+@keyframes totop{
+    
+    0%{
+        opacity: 0;
+        transform: translate(0px,60px)
+        
+        
+        
+    }
+    
+    
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+    
+    
+    100%{
+        
+        opacity: 1;
+        transform: translate(0,0)
+        
+    }
+    
+    
+    
+    
+}
+
+/*fin animation savoir+*/
+
+
+
+/*animation des H3*/
+
+@keyframes tobottom{
+    
+    0%{
+        
+        opacity: 0;
+        transform: translate(0px,-60px);
+        
+            
+        
+    }
+    
+    
+    
+    50%{
+        
+        opacity: 0;
+    }
+    
+    
+    
+    100%{
+        
+        opacity: 1;
+        transform: translate(0,0)
+    }
+    
+}
+
+
+/*fin animation des H3*/
+
+
+
+
+/*animation H1*/
+
+@keyframes totheright{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(-200px,0);
+        
+    }
+
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+        
+    }
+}
+
+/*fin animation H1*/
+
+/*animation menu*/
+
+
+@keyframes totheleft{
+    
+    0%{
+        opacity: 0;
+        transform: translate(500px,0)
+      }
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+
+    100%{
+        
+        opacity: 1;
+        transform: translate(0,0)rotate(-1080deg)
+        
+    }
+       
+}
+
+
+
+
+
+
+/*fin animation menu*/
+
+

@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*debut header*/
+
+header{
+    
+    /*background-color: orange;*/
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    background-image: url(/images/marcel-strauss-DR3O0MICFYA-unsplash.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+nav{
+    
+    /*background-color: cyan;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    height: 100px;
+    align-items: center;
+    left:63%;
+    right:50px;
+    top: 20px;
+    position: fixed;
+    
+    
+    
+   
+    
+   
+}
+
+div{
+    
+    border:none;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    /*background-color: antiquewhite;*/
+    border-radius: 50%;
+       
+}
+
+.acceuil{
+    
+    background-color: white;
+     background-image: url(/logo/acceuil%20logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    animation: totheleft 2s;
+    
+    
+}
+
+.acceuil:hover{
+    
+     transform: scale(1.2);
+}
+
+.experienceperso{
+    
+    background-image: url(/logo/experience%20perso%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+     transition: 0.2s;
+    animation: totheleft 2.5s;
+        
+}
+
+.experienceperso:hover{
+     transform: scale(1.2);
+}
+
+.formations{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20formation%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     transition: 0.2s;
+    animation: totheleft 3s;
+   
+}
+
+
+.formations:hover{
+    
+     transform: scale(1.2);
+     transition: 0.2s;
+    
+}
+
+
+.competences{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20competences%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     transition: 0.2s;
+    animation: totheleft 3.5s;
+    
+}
+
+.competences:hover{
+    
+     transform: scale(1.2);
+}
+
+
+
+.experiencepro{
+    
+    background-color: white;
+    background-image: url(/logo/experience%20pro%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     transition: 0.2s;
+    animation: totheleft 4s;
+    
+}
+
+.experiencepro:hover{
+    
+     transform: scale(1.2);
+}
+
+
+.contact{
+    
+    background-color: white;
+    background-image: url(/logo/logo%20contact%20icone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     transition: 0.2s;
+    animation: totheleft 4.5s;
+    
+    
+}
+
+
+.contact:hover{
+    
+     transform: scale(1.2);
+}
+
+
+h1{
+    width:12em;
+    margin:0;
+    position: fixed;
+    top: 30px;
+    left:10em;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: #3d77a1;
+    text-shadow: 3px 1px 1px #92b9da;
+     animation: totheright 2.2s;
+    animation-timing-function:cubic-bezier(0.33, 0.95, 0.58, 1);
+    
+    
+}
+
+
+
+h2{
+    opacity: 0;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #34576d;
+    
+}
+
+.acceuil h2 {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+.experienceperso h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+   
+
+}
+
+.formations h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+        
+    
+}
+
+.competences h2{
+    
+     padding-top: 30px;
+    padding-bottom: 32px;
+    font-size: 12px;
+        
+}
+
+
+.experiencepro h2{
+    
+     padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+        
+}
+
+.contact h2{
+    
+     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+
+h2:hover{
+    
+    opacity: 1;
+     transition: 0.8s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*fin header*/
+
+section{
+    
+     background-image: linear-gradient(to bottom, #bdd9ef,white);
+    width: 100%;
+    height: 969px;
+/*    background-color: bisque;*/
+
+}
+
+.container{
+    
+    width:80%;
+    height:700px;
+    padding-top:200px ;
+/*    background-color: aquamarine;*/
+    border-radius: 0;
+    margin-left: 200px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    
+    
+    
+}
+
+.container div{
+/*    background-color: blue;*/
+    height:150px;
+    width: 700px;
+    border-radius:0;
+/*    border: solid;*/
+    margin-left: 530px;
+/*    box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;*/
+    
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 40px;
+    box-shadow: 3PX -3PX 3PX #34576d8f,-3PX -3PX 3PX #34576d8f,3PX 3PX 3PX #34576d8f,-3PX 3PX 3PX #34576d8f;
+    border-radius: 30%;
+    animation: rotation 2.5s;
+
+   
+    
+}
+
+h3{
+    
+    text-transform: capitalize;
+    font-size: 22px;
+/*    color: #34576d;*/
+    color: #3d77a1;
+    margin-right: 200px;
+    animation: apparition 3s
+    
+      
+    
+}
+
+p{
+    margin-right: 200px;
+    color: #34576d;
+    letter-spacing: 0.1px;
+    animation: apparitiontop 4s;
+ 
+}
+
+
+footer{
+    
+    height: 80px;
+    width: 100%;
+     background:linear-gradient(to top,#9fc6e5,white);
+
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li{
+    font-size: 0.8em;
+    display: block;
+ color:#34576d;
+/* margin-top: 20px;*/
+    
+        
+}
+
+span{
+    
+   
+/*   background-color: aqua;*/
+    margin-right: 46%;
+    margin-left: 46%;
+    font-size:0.8em;
+ color:#34576d;
+     
+}
+
+
+
+/*animation titre H1*/
+
+@keyframes totheright{
+    
+    
+    0%{
+        opacity: 0;
+        transform: translate(-200px,0);
+        
+    }
+
+    20%{
+        
+        opacity: 0;
+    }
+    
+    
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+        
+    }
+}
+
+/*Fin animation titre H1*/
+
+
+/*animation des menus*/
+
+@keyframes totheleft{
+    
+    0%{
+        opacity: 0;
+        transform: translate(500px,0)
+      }
+    
+    50%{
+        
+        opacity: 0;
+        
+    }
+
+    100%{
+        
+        opacity: 1;
+            transform: translate(0,0)rotate(-1080deg)
+        
+    }
+       
+}
+
+/*Fin animation des menus*/
+
+
+@keyframes rotation{
+
+0%{
+    
+    transform: rotate3d(1,1,0,720deg);
+    opacity: 0;
+}
+
+    40%{
+        opacity: 0;
+    }
+
+100%{
+    
+    transform: rotate3d(0);
+    opacity: 1;
+    
+}
+
+}
+
+
+@keyframes apparition {
+    
+    
+    
+    0%{
+        transform: translate(200px,0);
+            opacity: 0
+    }
+    
+    40%{
+        
+        opacity: 0;
+    }
+    
+    100{
+        
+        opacity: 1;
+        transform: translate(0,0)
+        
+    }
+    
+}
+
+
+@keyframes apparitiontop {
+    
+    
+    
+    0%{
+        transform: translate(0px,100px);
+            opacity: 0
+    }
+    
+    60%{
+        
+        opacity: 0;
+    }
+    
+    100{
+        
+        opacity: 1;
+        transform: translate(0,0)
+        
+    }
+    
+}
